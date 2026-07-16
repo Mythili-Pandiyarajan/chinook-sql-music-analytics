@@ -36,7 +36,7 @@ NTILE(4) OVER (ORDER BY frequency ASC) AS frequency_score,
 NTILE(4) OVER (ORDER BY monetary ASC) AS monetary_score
 ```
 
-See `sql/06_rfm_segmentation.sql` for the full query.
+See `06_rfm_segmentation.sql` for the full query.
 
 ## Dashboard (Coming Soon)
 
