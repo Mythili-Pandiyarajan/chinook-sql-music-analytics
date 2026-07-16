@@ -38,9 +38,17 @@ NTILE(4) OVER (ORDER BY monetary ASC) AS monetary_score
 
 See `06_rfm_segmentation.sql` for the full query.
 
-## Dashboard (Coming Soon)
+## Power BI Dashboard
 
-A Power BI dashboard connecting directly to this database, visualizing revenue trends, top customers, and RFM segments, will be added to `/powerbi`.
+A 3-page interactive dashboard connected directly to the Chinook MySQL database.
+
+**Page 1 — Overview:** KPI cards (Total Revenue, Avg Order Value, Total Customers), monthly revenue trend line, revenue-by-country map, with country and date-range slicers.
+
+**Page 2 — Customer Insights:** RFM-based customer segmentation (Champions, Loyal Customers, At Risk, Lost) as an interactive donut chart that cross-filters a top-customer table and revenue-by-country breakdown.
+
+**Page 3 — Product & Genre Performance:** Revenue by genre, top 10 tracks by revenue, filterable by a genre slicer.
+
+📁 [Download the .pbix file](chinook_dashboard.pbix)
 
 ## Related Projects
 
