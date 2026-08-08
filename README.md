@@ -12,7 +12,7 @@ End-to-end SQL analysis of a digital music store database, covering revenue tren
 ## Tools Used
 
 - **MySQL 8.0** (Workbench) — all analysis
-- **Power BI** — dashboard (in progress)
+- **Power BI** — dashboard 
 - **Dataset:** [Chinook Database](https://github.com/lerocha/chinook-database) — a sample digital media store dataset (Artists, Albums, Tracks, Customers, Employees, Invoices)
 
 ## SQL Scripts
